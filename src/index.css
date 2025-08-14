@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comic Sans MS', cursive;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-xl shadow-lg p-6 border-2 border-transparent hover:border-blue-300 transition-all duration-300;
+  }
+  
+  .code-block {
+    @apply bg-gray-100 border-l-4 border-blue-500 p-4 rounded-r-lg font-mono text-sm;
+  }
+  
+  .example-box {
+    @apply bg-gradient-to-r from-blue-50 to-purple-50 border-2 border-dashed border-blue-300 rounded-lg p-4 my-4;
+  }
+  
+  .tag {
+    @apply inline-block bg-blue-100 text-blue-800 px-2 py-1 rounded-md text-sm font-mono;
+  }
+  
+  .category-badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium;
+  }
+  
+  .category-text { @apply bg-blue-100 text-blue-800; }
+  .category-heading { @apply bg-green-100 text-green-800; }
+  .category-layout { @apply bg-purple-100 text-purple-800; }
+  .category-media { @apply bg-orange-100 text-orange-800; }
+  .category-form { @apply bg-red-100 text-red-800; }
+  .category-semantic { @apply bg-indigo-100 text-indigo-800; }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent;
+  }
+}
