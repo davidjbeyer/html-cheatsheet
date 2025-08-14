@@ -1,28 +1,24 @@
-# 🎨 HTML Cheatsheet für Kinder
+# 🎨 HTML Cheatsheet
 
-Eine interaktive, kinderfreundliche Webseite, die HTML-Elemente spielerisch erklärt. Über 50 HTML-Elemente werden mit Beispielen, Erklärungen und praktischen Tipps vorgestellt.
+Ein sauberes, übersichtliches Cheatsheet für alle wichtigen HTML-Elemente. Jedes Element wird mit Code und Live-Beispiel angezeigt.
 
 ## ✨ Features
 
 - **Über 50 HTML-Elemente** mit detaillierten Erklärungen
-- **Interaktive Beispiele** - jedes Element wird live angezeigt
-- **Kategorisierung** nach Schwierigkeitsgrad und Verwendungszweck
-- **Suchfunktion** zum schnellen Finden von Elementen
+- **Live-Beispiele** - jedes Element wird sofort angezeigt
+- **Sauberes Dark Mode Design** für bessere Lesbarkeit
+- **Kategorisierung** nach Verwendungszweck
 - **Responsive Design** für alle Geräte
-- **Kinderfreundliche Benutzeroberfläche** mit Emojis und Animationen
-- **Kopier-Funktion** für HTML-Code
-- **Schwierigkeitsgrade** von 1-5 für besseres Verständnis
+- **Einfache Übersicht** ohne Ablenkungen
 
 ## 🚀 Installation
 
 1. **Abhängigkeiten installieren:**
-
    ```bash
    npm install
    ```
 
 2. **Entwicklungsserver starten:**
-
    ```bash
    npm start
    ```
@@ -36,7 +32,7 @@ Eine interaktive, kinderfreundliche Webseite, die HTML-Elemente spielerisch erkl
 
 - **React 18** mit TypeScript
 - **Tailwind CSS** für das Styling
-- **Lucide React** für Icons
+- **Clean Design** ohne unnötige Animationen
 - **Responsive Design** für alle Bildschirmgrößen
 
 ## 📚 Kategorien
@@ -50,24 +46,21 @@ Eine interaktive, kinderfreundliche Webseite, die HTML-Elemente spielerisch erkl
 
 ## 🎯 Zielgruppe
 
-- **Kinder und Jugendliche** ab 8 Jahren
-- **Anfänger** im Webdesign
-- **Lehrer und Eltern** für den Unterricht
-- **Alle**, die HTML spielerisch lernen möchten
+- **Entwickler** die schnell HTML-Referenz benötigen
+- **Studenten** im Webdesign
+- **Alle**, die HTML-Elemente nachschlagen möchten
 
 ## 🔧 Entwicklung
 
 Das Projekt verwendet:
-
 - **TypeScript** für bessere Code-Qualität
 - **Tailwind CSS** für konsistentes Styling
 - **Modulare Komponenten** für einfache Wartung
-- **Responsive Design** für alle Geräte
+- **Clean Code** ohne unnötige Komplexität
 
 ## 📱 Responsive Design
 
 Die Webseite funktioniert perfekt auf:
-
 - 📱 Smartphones
 - 💻 Tablets
 - 🖥️ Desktop-Computer
@@ -76,23 +69,21 @@ Die Webseite funktioniert perfekt auf:
 ## 🌟 Besondere Features
 
 - **Live-Vorschau** aller HTML-Elemente
-- **Kopier-Funktion** für Code
-- **Schwierigkeitsgrade** für besseres Lernen
-- **Tipps und Tricks** für jedes Element
-- **Attribute-Erklärungen** für fortgeschrittene Nutzer
-- **Suchfunktion** mit Tags und Beschreibungen
+- **Sauberes Dark Mode Design**
+- **Übersichtliche Darstellung** von Code und Beispiel
+- **Kategorisierte Elemente** für bessere Orientierung
+- **Responsive Grid-Layout** für optimale Darstellung
 
 ## 📖 Verwendung
 
-1. **Kategorie wählen** - Wähle eine der 7 Kategorien
-2. **Elemente durchsuchen** - Nutze die Suchfunktion
-3. **Beispiele ansehen** - Jedes Element wird live angezeigt
-4. **Code kopieren** - Kopiere den HTML-Code für eigene Projekte
-5. **Tipps lesen** - Lerne Best Practices für jedes Element
+1. **Elemente durchsuchen** - Alle Elemente sind auf einen Blick sichtbar
+2. **Code ansehen** - HTML-Code wird klar dargestellt
+3. **Beispiele betrachten** - Jedes Element wird live angezeigt
+4. **Kategorien verstehen** - Farbcodierte Kategorien für bessere Orientierung
 
 ## 🤝 Beitragen
 
-Verbesserungsvorschläge und Beiträge sind willkommen! Das Projekt soll Kindern helfen, HTML spielerisch zu lernen.
+Verbesserungsvorschläge und Beiträge sind willkommen! Das Projekt soll eine klare, übersichtliche HTML-Referenz bieten.
 
 ## 📄 Lizenz
 
@@ -100,4 +91,4 @@ Dieses Projekt ist für Bildungszwecke gedacht und kann frei verwendet werden.
 
 ---
 
-**Viel Spaß beim Lernen von HTML! 🎉**
+**Viel Spaß beim Entwickeln! 🚀**
