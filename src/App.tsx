@@ -9,15 +9,6 @@ function App() {
       <Header />
       
       <main className="container mx-auto px-4 py-8">
-        <div className="mb-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">
-            HTML Elemente Cheatsheet
-          </h2>
-          <p className="text-gray-400 text-lg">
-            {htmlElements.length} HTML-Elemente mit Code und Beispielen
-          </p>
-        </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {htmlElements.map((element) => (
             <ElementCard key={element.name} element={element} />
